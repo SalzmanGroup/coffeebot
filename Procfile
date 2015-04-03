@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n coffeebot 
+web: bin/hubot -n coffeebot 
