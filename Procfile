@@ -1,1 +1,1 @@
-web: bin/hubot -n coffeebot 
+web: bin/hubot -n coffeebot --adapter slack 
