@@ -26,8 +26,8 @@
     "hubot-slack": "~2.2.0",
     "githubot": "~0.4.0",
     "cheerio": "0.7.0",
-    "hubot-plusplus": "1.1.2"
-
+    "hubot-plusplus": "1.1.2",
+    "hubot-maps": "0.0.2"
   },
   "engines": {
     "node": ">= 0.8.x",
