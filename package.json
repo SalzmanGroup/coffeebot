@@ -27,7 +27,8 @@
     "githubot": "~0.4.2",
     "cheerio": "~0.7.0",
     "hubot-plusplus": "~1.1.5",
-    "hubot-maps": "0.0.2"
+    "hubot-maps": "0.0.2",
+    "querystring": "0.1.0"
   },
   "engines": {
     "node": ">= 0.8.x",
