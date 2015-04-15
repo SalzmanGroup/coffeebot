@@ -22,5 +22,7 @@ module.exports = (robot) ->
 
   robot.hear /([a-z])(\d{7,9})\b/i, (msg) ->
     link = COMPANIES[msg.match[2]]
-    msg.send link.replace('NUMBER', msg.match[3])
+    msg.send msg.match[2]
+    msg.send msg.match[3]
+    # msg.send link.replace('NUMBER', msg.match[3])
 
