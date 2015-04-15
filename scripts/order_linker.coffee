@@ -17,10 +17,10 @@
 
 module.exports = (robot) ->
   COMPANIES =
-    R : "spree"
-    W : "wholelattelove"
+    "R" : "http://www.wholelattelove.com/admin/orders/NUMBER/edit"
+    "W" : "wholelattelove"
 
-  robot.respond /([a-z])(\d{7,9})\b/i, (msg) ->
-    company = COMPANIES[msg.match[2]]
-    msg.send "That's a #{company} order"
+  robot.hear /([a-z])(\d{7,9})\b/i, (msg) ->
+    link = COMPANIES[msg.match[2]]
+    msg.send link.replace('NUMBER', msg.match[3])
 
