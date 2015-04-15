@@ -17,8 +17,15 @@
 
 module.exports = (robot) ->
   COMPANIES =
-    "R" : "http://www.wholelattelove.com/admin/orders/RNUMBER/edit"
-    "W" : "wholelattelove"
+    "R" : "https://www.wholelattelove.com/admin/orders/RNUMBER/edit"
+    "A" : "https://oes.wholelattelove.com/latte/orders/index.cfm?dbprefix=aa_&orderid=NUMBER"
+    "E" : "https://oes.wholelattelove.com/latte/orders/index.cfm?dbprefix=ee_&orderid=NUMBER"
+    "M" : "https://oes.wholelattelove.com/latte/orders/index.cfm?dbprefix=em_&orderid=NUMBER"
+    "I" : "https://oes.wholelattelove.com/latte/orders/index.cfm?dbprefix=im_&orderid=NUMBER"
+    "W" : "https://oes.wholelattelove.com/latte/orders/index.cfm?dbprefix=&orderid=NUMBER"
+
+  robot.hear /([a-z])(\d{7,9})\b/i, (msg) ->
+    link = COMPANIES[msg.match[1]]
 
   robot.hear /([a-z])(\d{7,9})\b/i, (msg) ->
     link = COMPANIES[msg.match[1]]
