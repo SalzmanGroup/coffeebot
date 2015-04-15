@@ -17,7 +17,7 @@
 
 module.exports = (robot) ->
   COMPANIES =
-    "R" : "http://www.wholelattelove.com/admin/orders/NUMBER/edit"
+    "R" : "http://www.wholelattelove.com/admin/orders/RNUMBER/edit"
     "W" : "wholelattelove"
 
   robot.hear /([a-z])(\d{7,9})\b/i, (msg) ->
