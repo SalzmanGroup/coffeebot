@@ -31,4 +31,5 @@ module.exports = (robot) ->
           else
             msg.send "No product found
 \n response body: #{body}
+\n request url: #{process.env.HUBOT_SPREE_API_ENDPOINT}/api/products.json?q[name_cont]=#{qu      ery}&q[stores_id_eq]=#{process.env.HUBOT_SPREE_STORE_ID}&token=#{process.env.HUBOT_SPREE_      API_KEY}
 "
