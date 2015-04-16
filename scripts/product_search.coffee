@@ -28,3 +28,7 @@ module.exports = (robot) ->
           price: #{product.display_price}\n
   total_on_hand: #{product.total_on_hand}\n
 "
+          else
+            msg.send "No product found
+\n response body: #{body}
+"
