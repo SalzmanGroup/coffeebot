@@ -23,10 +23,10 @@ module.exports = (robot) ->
         try
           json = JSON.parse(body)
           if product = json.products[0]
-            msg.send "     #{process.env.HUBOT_SPREE_API_ENDPOINT}/products/#{product.slug}
+            msg.send "     #{process.env.HUBOT_SPREE_API_ENDPOINT}/products/#{product.slug}\n
    product name: #{product.name}\n
-          price: #{product.display_price}\n
-  total_on_hand: #{product.total_on_hand}\n
+   price: #{product.display_price}\n
+   total_on_hand: #{product.total_on_hand}\n
 "
           else
             msg.send "No product found
