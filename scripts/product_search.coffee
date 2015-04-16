@@ -22,7 +22,7 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         try
           json = JSON.parse(body)
-          if product = json.products.first
+          if product = json.products[0]
             msg.send "     #{process.env.HUBOT_SPREE_API_ENDPOINT}/products/#{product.slug}
    product name: #{product.name}\n
           price: #{product.display_price}\n
