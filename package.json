@@ -29,10 +29,6 @@
     "hubot-plusplus": "~1.1.5",
     "hubot-maps": "0.0.2",
     "querystring": "0.1.0",
-    "es6-promise": "^2.0.1",
-    "googleapis": "^1.0.22",
-    "hubot-config": "^1.0.1",
-    "xml2js": "^0.4.4",
     "hubot-auth": "~1.2.0"
   },
   "engines": {
