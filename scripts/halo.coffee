@@ -37,6 +37,8 @@ module.exports = (robot) ->
     storage["b2"] = b2
     storage["b3"] = b3
 
+    robot.brain.save()
+
 
   robot.respond /halo set (\d+) (\d+) (\d+) (\d+)/, (msg) ->
     return unless robot.auth.hasRole(msg.envelope.user,'halo')
@@ -50,6 +52,8 @@ module.exports = (robot) ->
     storage["month_to_date"] = month_to_date
     storage["last_year_month_today"] = last_year_month_today
     storage["today"] = today
+
+    robot.brain.save()
 
   robot.respond /halo update/, (msg)->
     day = new Date().getDate()
