@@ -5,6 +5,5 @@
     "insult.coffee",
     "jenkins.coffee", 
     "meme_captain.coffee",
-    "http-say.coffee",
-    "hubot-newrelic2"
+    "http-say.coffee"
 ]

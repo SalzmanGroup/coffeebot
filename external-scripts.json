@@ -1,1 +1,5 @@
-["hubot-plusplus", "hubot-auth"]
+[
+    "hubot-plusplus",
+    "hubot-auth",
+    "hubot-newrelic2"
+]
