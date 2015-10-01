@@ -2,4 +2,5 @@
     "hubot-plusplus",
     "hubot-auth",
     "hubot-newrelic2"
+    "hubot-rss-reader"
 ]
