@@ -2,5 +2,10 @@
     "hubot-plusplus",
     "hubot-auth",
     "hubot-newrelic2",
-    "hubot-rss-reader"
+    "hubot-rss-reader",
+	"hubot-google-hangouts",
+	"hubot-fliptable",
+	"hubot-seen",
+	"hubot-sentimental",
+	"hubot-trello"
 ]
