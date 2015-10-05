@@ -32,11 +32,10 @@
         "hubot-auth": "~1.2.0",
         "hubot-newrelic2": "0.2.4",
         "hubot-rss-reader": "0.6.9",
-		"hubot-google-hangouts": "^0.7.1",
-		"hubot-fliptable": "*",
-		"hubot-seen": "~0.2.3",
-		"hubot-sentimental": "~1.0.5",
-		"hubot-trello": "*"
+	"hubot-google-hangouts": "^0.7.1",
+	"hubot-fliptable": "*",
+	"hubot-seen": "~0.2.3",
+	"hubot-trello": "*"
     },
     "engines": {
         "node": ">= 0.8.x",
