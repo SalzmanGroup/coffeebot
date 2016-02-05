@@ -1,9 +1,10 @@
 [
-    "redis-brain.coffee", 
-    "shipit.coffee", 
-    "github-issue-link.coffee", 
-    "insult.coffee",
-    "jenkins.coffee", 
-    "meme_captain.coffee",
-    "http-say.coffee"
+  "github-issue-link.coffee",
+  "catfacts.coffee",
+  "alot.coffee",
+  "github-commit-link.coffee",
+  "ferengi_rules_of_acquisition.coffee",
+  "corgime.coffee",
+  "meme_captain.coffee",
+  "moarcatsme.coffee"
 ]
